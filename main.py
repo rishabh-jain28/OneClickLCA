@@ -12,7 +12,7 @@ pdf_xpath = '//a[contains(@href, ".pdf")]/@href'
 
 save_dir = 'pdf_files'
 
-# Create the directory if it doesn't exist
+
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
 
